@@ -125,8 +125,8 @@ footer {
 } 
 
 .DeleteOutlineIcon{
-  color: black;
-  background-color: red;
+  color: rgba(255, 0, 0, 0.417);
+  
   border-radius: 50%;
   border: none;
    
@@ -138,6 +138,12 @@ footer {
   float: left;
   width: 25%;
   padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -167,5 +173,16 @@ footer {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
 
+}
+.DeleteOutlineIcon{
+  align-self: flex-end;
+  border: none;
+  
+
+}
+.DeleteOutlineIcon:hover{
+  motion: fill-box;
 }

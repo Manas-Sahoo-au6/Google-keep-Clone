@@ -12,9 +12,9 @@ function AddNote(props) {
                 <div className="card">
                     <h3>{props.title}</h3>
                     <p>{props.content}</p>
-                    <button  onClick={deleteNote}>
-                        <DeleteOutlineIcon  className="DeleteOutlineIcon"/>
-                    </button>
+                    
+                        <DeleteOutlineIcon  onClick={deleteNote} className="DeleteOutlineIcon"/>
+                    
                 </div>
             </div>
         </>
